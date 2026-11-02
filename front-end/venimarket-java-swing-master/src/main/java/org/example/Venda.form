@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.Venda">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="13" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="1008" height="909"/>
+    </constraints>
+    <properties>
+      <background color="-515"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="37b17" class="javax.swing.JTextField" binding="txt_quantidade">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2148"/>
+          <foreground color="-13355980"/>
+          <text value=""/>
+          <toolTipText value="Digite a quantidade"/>
+        </properties>
+      </component>
+      <grid id="6daf4" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="0" bottom="20" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-515"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6cbcf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentX value="0.0"/>
+              <background color="-515"/>
+              <font name="Arial Black" size="36" style="1"/>
+              <foreground color="-14031"/>
+              <icon value="org/example/assets/market.png"/>
+              <opaque value="false"/>
+              <text value="FASTMARKET"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="64fa6" binding="panel2" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-515"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5d4f0" class="javax.swing.JTextArea" binding="txtarea_valor">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-515"/>
+              <editable value="false"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-14031"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ffc19" class="javax.swing.JLabel" binding="lb_troco">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-13355980"/>
+              <text value="Troco:"/>
+            </properties>
+          </component>
+          <component id="1d51" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-13355980"/>
+              <text value="Valor Total:"/>
+            </properties>
+          </component>
+          <component id="c167b" class="javax.swing.JButton" binding="btn_addVenda">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14031"/>
+              <borderPainted value="false"/>
+              <foreground color="-334337"/>
+              <text value="Realizar Venda"/>
+            </properties>
+          </component>
+          <component id="e6b0e" class="javax.swing.JComboBox" binding="cb_metodoPagamento">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2148"/>
+              <editable value="false"/>
+              <foreground color="-13355980"/>
+              <model>
+                <item value="Forma de Pagamento"/>
+              </model>
+              <toolTipText value="Selecione a forma de pagamento"/>
+            </properties>
+          </component>
+          <component id="e1f40" class="javax.swing.JTextField" binding="txt_amount">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-2148"/>
+              <foreground color="-13355980"/>
+              <text value=""/>
+              <toolTipText value="Informe o valor do desconto,caso houver"/>
+            </properties>
+          </component>
+          <component id="243a7" class="javax.swing.JLabel" binding="lb_valorpago">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font/>
+              <foreground color="-13355980"/>
+              <text value="Valor Pago"/>
+            </properties>
+          </component>
+          <component id="3e1a5" class="javax.swing.JButton" binding="btn_voltar">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="400" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14031"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="20"/>
+              <foreground color="-1048588"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="Voltar"/>
+            </properties>
+          </component>
+          <component id="1c45a" class="javax.swing.JTextArea" binding="txtarea_troco">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-515"/>
+              <editable value="false"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-13290187"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="15e20" binding="img_pix" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="4" row-span="13" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-515"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3b543" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="org/example/assets/qrcode.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="51313">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="f0171">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </vspacer>
+          <component id="ea472" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="0" bottom="20" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-131090"/>
+              <font name="Arial Black" size="16"/>
+              <foreground color="-14031"/>
+              <text value="Scaneie o QR Code abaixo:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="87388" class="javax.swing.JButton" binding="btn_addProduto">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <actionCommand value=""/>
+          <background color="-14031"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <foreground color="-131090"/>
+          <text value="Adicionar produto"/>
+          <toolTipText value="Adicionar produto"/>
+        </properties>
+      </component>
+      <component id="dc4cd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <foreground color="-13355980"/>
+          <text value="Selecionar produto"/>
+        </properties>
+      </component>
+      <component id="543bc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <foreground color="-13355980"/>
+          <text value="Quantidade"/>
+        </properties>
+      </component>
+      <scrollpane id="34e0e">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2148"/>
+          <foreground color="-13355980"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="62678" class="javax.swing.JTable" binding="tb_produtos">
+            <constraints/>
+            <properties>
+              <editingColumn value="-1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="92dd6" class="javax.swing.JComboBox" binding="cb_produtos">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2148"/>
+          <foreground color="-13355980"/>
+        </properties>
+      </component>
+      <component id="53661" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <foreground color="-13355980"/>
+          <text value="Selecione o cliente (caso tenha cadastro):"/>
+        </properties>
+      </component>
+      <component id="85d16" class="javax.swing.JComboBox" binding="cb_clientes">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2148"/>
+          <foreground color="-13355980"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

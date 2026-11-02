@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.AlterarAcessoLogin.AlterarAcessoLogin">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1824" height="982"/>
+    </constraints>
+    <properties>
+      <background color="-1048588"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="724e9" binding="panel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1048588"/>
+          <font size="16"/>
+          <foreground color="-334337"/>
+          <preferredSize width="400" height="300"/>
+          <requestFocusEnabled value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5bd5e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="20" bottom="0" right="20" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <alignmentX value="0.0"/>
+              <font name="Arial Black" size="36" style="1"/>
+              <foreground color="-13273345"/>
+              <icon value="org/example/assets/market.png"/>
+              <opaque value="false"/>
+              <text value="FASTMARKET"/>
+            </properties>
+          </component>
+          <grid id="2353f" layout-manager="GridLayoutManager" row-count="10" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1048588"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a70b2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13273345"/>
+                  <enabled value="true"/>
+                  <font name="Arial" size="16" style="0"/>
+                  <foreground color="-13273345"/>
+                  <text value="Selecione o usuário que mudará de acesso:"/>
+                </properties>
+              </component>
+              <grid id="6120" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="5" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1048588"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="a0a26" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="5" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1114381"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="6831a" class="javax.swing.JTextArea">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1048588"/>
+                  <editable value="false"/>
+                  <enabled value="true"/>
+                  <rows value="2"/>
+                  <text value="Para alterar o acesso do login, o seu usuário precisa estar com o acesso Administrativo."/>
+                </properties>
+              </component>
+              <component id="23444" class="javax.swing.JButton" binding="btn_alterarAcesso">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="400" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13273345"/>
+                  <borderPainted value="false"/>
+                  <focusPainted value="false"/>
+                  <font size="20"/>
+                  <foreground color="-131090"/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <text value="Alterar Acesso"/>
+                </properties>
+              </component>
+              <grid id="e0088" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="5" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1048588"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="1a2bd" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13273345"/>
+                  <enabled value="true"/>
+                  <font name="Arial" size="16" style="0"/>
+                  <foreground color="-13273345"/>
+                  <text value="Selecione o acesso que ele terá:"/>
+                </properties>
+              </component>
+              <component id="890dd" class="javax.swing.JComboBox" binding="cb_usuarios">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="88fd0" class="javax.swing.JComboBox" binding="cb_acesso">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="51735" class="javax.swing.JButton" binding="btn_voltar">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="400" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13273345"/>
+                  <borderPainted value="false"/>
+                  <focusPainted value="false"/>
+                  <font size="20"/>
+                  <foreground color="-1048588"/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <text value="Voltar"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
