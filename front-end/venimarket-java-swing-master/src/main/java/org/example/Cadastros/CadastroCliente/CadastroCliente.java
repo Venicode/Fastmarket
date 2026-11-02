@@ -37,7 +37,7 @@ public class CadastroCliente extends JFrame {
                     Crud crudCliente = new Crud();
                     crudCliente.setEndpoint("cliente");
                     Cliente cliente = new Cliente();
-                    cliente.setId(clienteId); // NOVO
+                    cliente.setId(clienteId);
                     cliente.setCpf(txt_cpf.getText());
                     cliente.setEmail(txt_email.getText());
                     cliente.setTelefone(txt_telefone.getText());

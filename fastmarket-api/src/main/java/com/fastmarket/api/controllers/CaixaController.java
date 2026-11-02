@@ -17,7 +17,7 @@ import java.util.List;
 public class CaixaController {
 
     @Autowired
-    private CaixaService caixaService;   // minúsculo: evita confundir com a classe
+    private CaixaService caixaService; 
 
     @PostMapping("/abrir")
     public ResponseEntity<Caixa> abrir(@RequestBody @Valid AbrirCaixaDto dto) {

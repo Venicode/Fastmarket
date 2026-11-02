@@ -64,7 +64,7 @@ public class Caixa extends JFrame {
             crud.setEndpoint("caixa/aberto");
             map = crud.getBy();
         } catch (Exception ex) {
-            map = null;   // 404 / corpo inesperado = nenhum caixa aberto
+            map = null;
         }
 
         if (map != null && map.get("id") != null) {

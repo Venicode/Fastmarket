@@ -54,7 +54,6 @@ public class Venda extends JFrame {
         carregarClientes();
         lb_valorpago.setVisible(false);
         tb_produtos.setModel(tbModel);
-        // recalcula sempre que qualquer célula da tabela mudar
         tbModel.addTableModelListener(ev -> {
             try { recalcularTotais(); } catch (NumberFormatException ignored) {}
         });
@@ -93,7 +92,7 @@ public class Venda extends JFrame {
                 double subtotal = produto.getPrecoVenda() * quantity;
 
                 String entrada = JOptionPane.showInputDialog(null, "Desconto (opcional):", "0");
-                if (entrada == null) return; // cancelou
+                if (entrada == null) return;
                 double desconto = parseValor(entrada);
 
                 if (desconto < 0 || desconto > subtotal) {
@@ -223,7 +222,6 @@ public class Venda extends JFrame {
             panel1.repaint();
         });
 
-        // editar quantidade/desconto direto na tabela e apertar Enter recalcula
         tb_produtos.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {

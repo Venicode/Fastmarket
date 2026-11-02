@@ -24,7 +24,6 @@ public class Produto {
     private String marca;
     private boolean ativo;
 
-    //Convert to Map
     Map<String,Object> toMap(){
         Map<String, Object> map = new HashMap<>();
         map.put("id", id);

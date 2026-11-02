@@ -33,7 +33,6 @@ public class ListaClientes extends JFrame {
         tb_clientes.setModel(tbModel);
         carregar();
 
-        // Esconde a coluna do ID (continua no model)
         tb_clientes.removeColumn(tb_clientes.getColumnModel().getColumn(0));
 
         tb_clientes.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -41,7 +40,6 @@ public class ListaClientes extends JFrame {
             public void mouseClicked(java.awt.event.MouseEvent e) {
                 int row = tb_clientes.rowAtPoint(e.getPoint());
                 int col = tb_clientes.columnAtPoint(e.getPoint());
-                // Após esconder o ID, "Editar" é a última coluna visível
                 if (row >= 0 && col == tb_clientes.getColumnCount() - 1) {
                     abrirEdicao(tb_clientes.convertRowIndexToModel(row));
                 }
